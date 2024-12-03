@@ -28,7 +28,7 @@ const HeroSectionOne: React.FC<HeroSectionProps> = ({ dark = false }) => {
   };
 
   const containerClass = classNames(
-    "h-screen text-center p-4 rounded-lg shadow-lg",
+    " text-center p-4 rounded-lg shadow-lg",
     {
       "bg-dark text-light": dark,
       "bg-light text-dark": !dark,

@@ -47,7 +47,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ dark = false }) => {
   ];
 
   const lineStyles: React.CSSProperties = {
-    fontSize: "40px",
+
     lineHeight: "3rem",
     fontWeight: "bolder",
     textAlign: "center",
@@ -71,6 +71,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ dark = false }) => {
               ...lineStyles,
               maxWidth: `${80 - index * 10}%`, // Tapering effect for width
             }}
+            className={classNames(
+              "break-words font-bold text-center leading-snug",
+              {
+                "text-2xl lg:text-3xl md:text-2xl sm:text-xl": true, // Responsive font sizes
+              }
+            )}
           >
             {line.split("").map((letter, letterIndex) => (
               <motion.span
