@@ -10,11 +10,11 @@ import { Heading, SubHeading} from "./Typography";
 import HeadingTwo from "./Typography/HeadingTwo";
 export default function Home() {
   return (
-    
+     
     <div>
       
        <SectionLayout className="overflow-hidden">
-    <div className="md:max-w-2/3 flex w-full flex-col items-center space-y-11">
+    <div className="md:max-w-2/3 mb-20 flex w-full flex-col items-center space-y-4 text-sm md:space-y-11 md:pb-0 md:text-lg">
       <SubHeading dark>
         <span className="font-bold">Hey! </span>My name is
       </SubHeading>
@@ -28,17 +28,7 @@ export default function Home() {
         <SplitText text="Welcome to my Corner of Curiosities " />
         <SplitText text=" of the internet!" />
       </HeadingTwo>
-      
-    </div>
-    <Float config={home} />
-  </SectionLayout>
-
-
- 
-
-
-  <SectionLayoutTwo dark  >
-    <div className="md:max-w-2/3 flex w-full flex-col items-center space-y-11"
+      <div className="md:max-w-2/3 flex w-full flex-col items-center space-y-11"
    
     >
       
@@ -49,38 +39,36 @@ export default function Home() {
  
       
     </div>
-    <Float config={home} />
-  </SectionLayoutTwo>
+    <div className="md:max-w-2/3 flex w-full flex-col items-center space-y-11"
+   
+   >
+     
+ 
+ <Heading dark className="text-center font-extrabold">
+ <HeroSectionOne />
+     </Heading>
 
-  <SectionLayoutTwo dark  >
-    <div className="md:max-w-2/3 flex w-full flex-col items-center space-y-11"
+     
+   </div>
+   <div className=" flex-col items-center space-y-11"
    
-    >
-      
-  
-  <Heading dark className="text-center font-extrabold">
-  <HeroSectionOne />
-      </Heading>
+   >
+     
  
-      
+ <Heading dark className="text-center font-extrabold">
+ <HeroSectionTwo />
+     </Heading>
+
+     
+   </div>
     </div>
     <Float config={home} />
-  </SectionLayoutTwo>
-  <SectionLayoutTwo dark  >
-    <div className="md:max-w-2/3 flex w-full flex-col items-center space-y-11"
-   
-    >
-      
-  
-  <Heading dark className="text-center font-extrabold">
-  <HeroSectionTwo />
-      </Heading>
+  </SectionLayout>
+
+
  
-      
-    </div>
-    <Float config={home} />
-  </SectionLayoutTwo>
-  
+
+
   </div>
 
   );
