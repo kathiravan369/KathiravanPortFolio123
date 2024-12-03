@@ -69,7 +69,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ dark = false }) => {
             variants={textVariants}
             style={{
               ...lineStyles,
-              maxWidth: `${80 - index * 10}%`, // Tapering effect for width
+              maxWidth: `${98 - index * 2}%`, // Tapering effect for width
             }}
             className={classNames(
               "break-words font-bold text-center leading-snug",
