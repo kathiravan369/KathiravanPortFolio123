@@ -62,7 +62,7 @@ export default function Writing() {
               {/* Image with Hover Effect */}
               <div
                 style={{
-                  width: "350px",
+                  width: "50%",
                   textAlign: "center",
                   margin: "0 auto",
                 }}
@@ -76,7 +76,7 @@ export default function Writing() {
                 >
                   <Image
                     src={Shopping}
-                    style={{ width: "350px" }}
+                    style={{ width: "100%" }}
                     alt="Project Image"
                     className="h-auto w-full transform transition-transform duration-300 hover:scale-105 hover:brightness-75 hover:grayscale"
                   />
@@ -107,7 +107,7 @@ export default function Writing() {
               <br />
               <div
                 style={{
-                  width: "350px",
+                  width: "50%",
                   textAlign: "center",
                   margin: "0 auto",
                 }}
@@ -121,7 +121,7 @@ export default function Writing() {
                 >
                   <Image
                     src={image2}
-                    style={{ width: "350px" }}
+                    style={{ width: "100%" }}
                     alt="Project Image"
                     className="h-auto w-full transform transition-transform duration-300 hover:scale-105 hover:brightness-75 hover:grayscale"
                   />
@@ -205,7 +205,7 @@ export default function Writing() {
               {/* Project Link */} <br /> <br />
               <div
                 style={{
-                  width: "350px",
+                  width: "50%",
                   textAlign: "center",
                   margin: "0 auto",
                 }}
@@ -219,7 +219,7 @@ export default function Writing() {
                 >
                   <Image
                     src={image3}
-                    style={{ width: "350px" }}
+                    style={{ width: "100%" }}
                     alt="Project Image"
                     className="h-auto w-full transform transition-transform duration-300 hover:scale-105 hover:brightness-75 hover:grayscale"
                   />
@@ -280,7 +280,7 @@ export default function Writing() {
               {/* Project Link */} <br /> <br />
               <div
                 style={{
-                  width: "350px",
+                  width: "50%",
                   textAlign: "center",
                   margin: "0 auto",
                 }}
@@ -294,7 +294,7 @@ export default function Writing() {
                 >
                   <Image
                     src={image4}
-                    style={{ width: "350px" }}
+                    style={{ width: "100%" }}
                     alt="Project Image"
                     className="h-auto w-full transform transition-transform duration-300 hover:scale-105 hover:brightness-75 hover:grayscale"
                   />

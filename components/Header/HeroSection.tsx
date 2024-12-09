@@ -13,10 +13,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ dark = false }) => {
       opacity: 1,
       scale: 1,
       transition: {
-        duration: 0.8,
+        duration: 0.3,
         ease: "easeInOut",
         delayChildren: 0.3,
-        staggerChildren: 0.07,
+        staggerChildren: 0.02,
       },
     },
   };
